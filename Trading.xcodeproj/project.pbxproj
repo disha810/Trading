@@ -29,9 +29,22 @@
 		759BFDFB3091020300E23891 /* TradingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		759BFE1A3091A77700E23891 /* Exceptions for "Trading" folder in "Trading" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 759BFDE33091020100E23891 /* Trading */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		759BFDE63091020100E23891 /* Trading */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				759BFE1A3091A77700E23891 /* Exceptions for "Trading" folder in "Trading" target */,
+			);
 			path = Trading;
 			sourceTree = "<group>";
 		};
@@ -374,6 +387,7 @@
 				DEVELOPMENT_TEAM = 64455WM3DJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trading/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -406,6 +420,7 @@
 				DEVELOPMENT_TEAM = 64455WM3DJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trading/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
